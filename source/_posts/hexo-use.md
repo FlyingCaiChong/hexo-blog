@@ -1,7 +1,10 @@
 ---
 title: Hexo 使用
 date: 2023-09-01 22:09:52
+categories:
+  - 技术
 tags:
+  - hexo
 ---
 
 ## 安装
@@ -143,4 +146,46 @@ symbols_count_time:
 
 ```yml
 language: zh-CN # zh-CN 对应 themes/next/languages/zh-CN.yml
+```
+
+## 创建分类
+
+### 生成分类页
+
+```sh
+hexo new page categories
+```
+
+创建完成后会在`source`目录下生成 `categories/index.md` 文件.
+
+```yml
+---
+title: categories
+date: 2023-09-02 15:36:39
+---
+```
+
+### 添加 type 属性
+
+在`categories/index.md`文件中`date`下面添加`type`属性
+
+```yml
+---
+title: categories
+date: 2023-09-02 15:36:39
+type: "categories"
+---
+```
+
+### 将文章添加到分类
+
+打开想要分类的文章, 添加`categories`属性
+
+```yml
+---
+title: Hexo 使用
+date: 2023-09-01 22:09:52
+categories:
+  - 技术
+---
 ```
