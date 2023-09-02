@@ -2,7 +2,7 @@
 title: Hexo 使用
 date: 2023-09-01 22:09:52
 categories:
-  - 技术
+  - 其它技术
 tags:
   - hexo
 ---
@@ -148,7 +148,7 @@ symbols_count_time:
 language: zh-CN # zh-CN 对应 themes/next/languages/zh-CN.yml
 ```
 
-## 创建分类
+## 添加分类
 
 ### 生成分类页
 
@@ -186,6 +186,78 @@ type: "categories"
 title: Hexo 使用
 date: 2023-09-01 22:09:52
 categories:
-  - 技术
+  - 其它技术
 ---
+```
+
+### 打开分类配置
+
+在`_config.next.yml`中打开分类配置
+
+```yml
+menu:
+  home: / || fa fa-home
+  #about: /about/ || fa fa-user
+  # tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+  #schedule: /schedule/ || fa fa-calendar
+  #sitemap: /sitemap.xml || fa fa-sitemap
+  #commonweal: /404/ || fa fa-heartbeat
+```
+
+## 添加标签
+
+### 生成标签页
+
+```sh
+hexo new page tags
+```
+
+创建完成后会在`source`目录下生成 `tags/index.md`文件
+
+```yml
+title: tags
+date: 2023-09-02 15:50:52
+```
+
+### 添加 type 属性
+
+在`tags/index.md`文件中`date`下面添加`type`属性
+
+```yml
+title: tags
+date: 2023-09-02 15:50:52
+type: "tags"
+```
+
+### 给文章设置标签
+
+打开想要设置标签的文章, 添加`tags`属性
+
+```yml
+---
+title: Hexo 使用
+date: 2023-09-01 22:09:52
+categories:
+  - 其它技术
+tags:
+  - hexo
+---
+```
+
+### 打开标签配置
+
+在`_config.next.yml`中打开标签配置
+
+```yml
+menu:
+  home: / || fa fa-home
+  #about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+  #schedule: /schedule/ || fa fa-calendar
+  #sitemap: /sitemap.xml || fa fa-sitemap
+  #commonweal: /404/ || fa fa-heartbeat
 ```
