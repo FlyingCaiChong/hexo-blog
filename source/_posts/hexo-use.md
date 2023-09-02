@@ -261,3 +261,36 @@ menu:
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
 ```
+
+## 添加关于
+
+### 生成关于页面
+
+```sh
+hexo new page about
+```
+
+创建完成后会在`source`目录下生成`about/index.md`文件
+
+```yml
+---
+title: about
+date: 2023-09-02 16:04:00
+---
+```
+
+可以 index.md 文件里添加关于的内容信息.
+
+### 打开关于配置
+
+```yml
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+  #schedule: /schedule/ || fa fa-calendar
+  #sitemap: /sitemap.xml || fa fa-sitemap
+  #commonweal: /404/ || fa fa-heartbeat
+```
