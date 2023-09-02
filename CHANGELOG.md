@@ -1,6 +1,24 @@
 
   #  更新日志
   
+### [1.0.3](https://github.com/FlyingCaiChong/hexo-blog/compare/v1.0.2...v1.0.3) (2023-09-02)
+
+
+### 👷 Continuous Integration | CI 配置
+
+* 修改构建相关配置 ([38e3dfc](https://github.com/FlyingCaiChong/hexo-blog/commit/38e3dfcc4f7c52ef3b30cdc7d049b6b045f3e57e))
+
+
+### ✨ Features | 新功能
+
+* 配置社交链接 ([fd485ec](https://github.com/FlyingCaiChong/hexo-blog/commit/fd485ec595ada81b396351eaf058a3a7a33fae36))
+* 添加标签 ([ecf06af](https://github.com/FlyingCaiChong/hexo-blog/commit/ecf06af9bc7171dc62ab51b30c0df4c10e804d40))
+* 添加分类 ([e39e984](https://github.com/FlyingCaiChong/hexo-blog/commit/e39e984b1b5dd97a157e34a95dad3cbf422d9586))
+* 添加关于 ([334eb8e](https://github.com/FlyingCaiChong/hexo-blog/commit/334eb8ed404f1d6a2d966b0571c8a69d52849965))
+* 添加avatar头像 ([c5b1284](https://github.com/FlyingCaiChong/hexo-blog/commit/c5b12840646291055280b73306ba4aa39c8c016c))
+* 修改标题和描述信息 ([033f1e6](https://github.com/FlyingCaiChong/hexo-blog/commit/033f1e632c7338ad1c844593dc1d84a96bc46377))
+* 支持 Dark Mode ([228587e](https://github.com/FlyingCaiChong/hexo-blog/commit/228587ebc607b871f0a427e44ab0aecb8f284c56))
+
 ### [1.0.2](https://github.com/FlyingCaiChong/hexo-blog/compare/v1.0.1...v1.0.2) (2023-09-01)
 
 
