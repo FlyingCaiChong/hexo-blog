@@ -299,4 +299,4 @@ menu:
 
 ---
 
-[hexo-next 文档](https://theme-next.js.org/pisces/docs/theme-settings/posts)
+[hexo-next 文档](https://theme-next.js.org/pisces/docs/getting-started/)
