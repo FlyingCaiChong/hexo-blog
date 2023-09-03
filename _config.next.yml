@@ -282,9 +282,8 @@ follow_me:
 
 # Related popular posts
 # Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts
-# 这个不要打开, 打开会影响到线上样式
 related_posts:
-  enable: false
+  enable: true
   icon: fa fa-signs-post
 
 # Post edit
