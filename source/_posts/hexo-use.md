@@ -48,6 +48,8 @@ npm install
 npx hexo server # 局部创建使用npx
 ```
 
+<!-- more -->
+
 ## 安装[hexo-next 主题](https://github.com/next-theme/hexo-theme-next)
 
 ### 方式 1 使用 npm 安装
@@ -294,3 +296,7 @@ menu:
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
 ```
+
+---
+
+[hexo-next 文档](https://theme-next.js.org/pisces/docs/theme-settings/posts)
