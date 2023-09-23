@@ -1,6 +1,29 @@
 
   #  更新日志
   
+### [1.0.5](https://github.com/FlyingCaiChong/hexo-blog/compare/v1.0.4...v1.0.5) (2023-09-23)
+
+
+### ♻️ Code Refactoring | 代码重构
+
+* 删除日志提交 ([871e7c0](https://github.com/FlyingCaiChong/hexo-blog/commit/871e7c09fa6a90b0ea997a199045ae1e13667b9f))
+
+
+### ✨ Features | 新功能
+
+* 添加公安备案 ([6b59c93](https://github.com/FlyingCaiChong/hexo-blog/commit/6b59c9338808bcd2afe968b428404878a19b4570))
+
+
+### ✏️ Documentation | 文档
+
+* 添加新文章 ([f5cef7a](https://github.com/FlyingCaiChong/hexo-blog/commit/f5cef7a873d30e2a5f5dad93a94c1d32ec8f46f0))
+* 添加新文章 ([afa1f84](https://github.com/FlyingCaiChong/hexo-blog/commit/afa1f849d063a752b184e3b7a4985b4e24d01519))
+* 添加新文章 ([f1208b5](https://github.com/FlyingCaiChong/hexo-blog/commit/f1208b5739e39f7bd79bf30d605bcdb3d5e1f063))
+* 添加新文章 ([00f2249](https://github.com/FlyingCaiChong/hexo-blog/commit/00f22494728559a62b9763434c5420a6d003b634))
+* 添加新文章 ([e25a3b1](https://github.com/FlyingCaiChong/hexo-blog/commit/e25a3b13ca922f5a5ba990d55e7649b217d05904))
+* 修改\"记录使用hexo搭建个人博客\"文章内容 ([01ab48d](https://github.com/FlyingCaiChong/hexo-blog/commit/01ab48d83bc1e7ae6f8a9e87fbcadc0217446b0b))
+* 修改title ([9ebd95d](https://github.com/FlyingCaiChong/hexo-blog/commit/9ebd95df1fb8bf93d6b48d80025ddd9237749231))
+
 ### [1.0.4](https://github.com/FlyingCaiChong/hexo-blog/compare/v1.0.3...v1.0.4) (2023-09-03)
 
 
