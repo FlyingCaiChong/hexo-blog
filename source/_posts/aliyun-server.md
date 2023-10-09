@@ -68,9 +68,9 @@ node app.js
 
 ### 在阿里云轻量应用管理平台添加防火墙端口
 
-使用 postman 调用接口时, 发现访问不通, 原因是防火墙的端口没开, 需要开防火墙端口, 项目接口使用的 3000 端口:![d56e19e3c94b7674f48720c4b38c0619.png](../images/aliyun-server-res/948EED37-A2B2-4BB1-9B22-C58B5451604C.png)
+使用 `postman` 调用接口时, 发现访问不通, 原因是防火墙的端口没开, 需要开防火墙端口, 项目接口使用的 3000 端口:![d56e19e3c94b7674f48720c4b38c0619.png](../images/aliyun-server-res/948EED37-A2B2-4BB1-9B22-C58B5451604C.png)
 
-再使用 postman 调用接口, 发现可以调通了, 但是报连接数据库的错误, 因为之前本地的项目是使用的本地数据库, 服务器上暂时没有数据库, 所以接下来需要在服务器上创建数据库.
+再使用 `postman` 调用接口, 发现可以调通了, 但是报连接数据库的错误, 因为之前本地的项目是使用的本地数据库, 服务器上暂时没有数据库, 所以接下来需要在服务器上创建数据库.
 
 ## 在服务器端添加数据库
 
@@ -91,7 +91,7 @@ service mysqld start
 mysql -u root -p
 ```
 
-设置 root 用户
+设置 `root` 用户
 
 ```sh
 // 1. 使用mysql表
@@ -106,7 +106,7 @@ flush privileges;
 select User, Host from user;
 ```
 
-设置 root 用户密码
+设置 `root` 用户密码
 
 ```sh
 alter user 'root'@'%' identified by <password>;
@@ -118,7 +118,7 @@ alter user 'root'@'%' identified by <password>;
 
 ### 验证是否可以访问远程数据库
 
-打开 iterm
+打开 `iterm`
 
 ```sh
 mysql -h <ip> -P 3306 -u root <password>
@@ -126,7 +126,7 @@ mysql -h <ip> -P 3306 -u root <password>
 
 ### 修改服务器端项目里连接数据库的密码
 
-使用 VSCode 的资源管理器插件连接远程服务器, 并打开项目文件, 修改项目中连接数据库的密码.
+使用 `VSCode` 的资源管理器插件连接远程服务器, 并打开项目文件, 修改项目中连接数据库的密码.
 
 ## 使用 workbench 把本地的数据库迁移到服务器上
 
@@ -145,7 +145,7 @@ data import: ![c5f071441259524b36e117212c6b269b.png](../images/aliyun-server-res
 
 ## 自动启动项目 pm2
 
-当我退出 shell 远程服务器时, 项目会自动停止了, 需要安装状态代理包 pm2.
+当我退出 `shell` 远程服务器时, 项目会自动停止了, 需要安装状态代理包 `pm2`.
 
 1. 全局安装
 
