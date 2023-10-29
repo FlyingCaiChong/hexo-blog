@@ -427,3 +427,7 @@ class LinkedListNode {
     return this;
   }
 ```
+
+---
+
+- 源码地址: [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/linked-list/LinkedList.js)

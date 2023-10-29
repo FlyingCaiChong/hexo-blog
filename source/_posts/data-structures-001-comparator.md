@@ -87,4 +87,4 @@ export default class Comparator {
 
 ---
 
-源码地址: [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
+- 源码地址: [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms/blob/master/src/utils/comparator/Comparator.js)
