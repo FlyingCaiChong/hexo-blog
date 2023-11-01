@@ -14,6 +14,8 @@ tags:
 
 <!-- more -->
 
+![Queue](../images/data-structures/queue.jpeg)
+
 ```javascript
 export default class Queue {
   // 初始化队列
@@ -67,3 +69,7 @@ export default class Queue {
   }
 }
 ```
+
+---
+
+- 源码地址: [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/queue/Queue.js)

@@ -19,6 +19,8 @@ categories:
 
 <!-- more -->
 
+![LinkedList](../images/data-structures/linked-list.jpeg)
+
 ## LinkedListNode 链表节点类
 
 ```javascript

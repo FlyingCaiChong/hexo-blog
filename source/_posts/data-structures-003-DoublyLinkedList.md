@@ -19,6 +19,8 @@ categories:
 
 <!-- more -->
 
+![DoublyLinkedList](../images/data-structures/doubly-linked-list.jpeg)
+
 ## DoublyLinkedListNode 双向链表节点类
 
 ```javascript
