@@ -1,6 +1,23 @@
 
   #  更新日志
   
+### [1.0.6](https://github.com/FlyingCaiChong/hexo-blog/compare/v1.0.5...v1.0.6) (2023-11-24)
+
+
+### ✏️ Documentation | 文档
+
+* 添加图片 ([d85b562](https://github.com/FlyingCaiChong/hexo-blog/commit/d85b56287e502d1157403bba4406b9f2627e3e4e))
+* 添加新文章 ([9e0b28e](https://github.com/FlyingCaiChong/hexo-blog/commit/9e0b28e87dd41b806e6c0d030c2dadc053829f13))
+* 添加新文章 ([54d0ae6](https://github.com/FlyingCaiChong/hexo-blog/commit/54d0ae6a89ba7a5fdcb66c1f6cac2af0ea3d9aeb))
+* 添加新文章 ([20f47e6](https://github.com/FlyingCaiChong/hexo-blog/commit/20f47e602a76eba7cf07dfce074736a3936e185c))
+* 添加新文章 ([031962d](https://github.com/FlyingCaiChong/hexo-blog/commit/031962deb59a992122251a93d55287349fda6aee))
+* 添加新文章 ([e36e6b9](https://github.com/FlyingCaiChong/hexo-blog/commit/e36e6b98b8e4706b6432cc0391cc4f074bafc3ca))
+* 添加新文章 ([e485cdc](https://github.com/FlyingCaiChong/hexo-blog/commit/e485cdc10826a02dce65af646bdffde32527927c))
+* 添加新文章 ([42a4a62](https://github.com/FlyingCaiChong/hexo-blog/commit/42a4a62321ab555b4060c37260610962b925af0b))
+* 修改参考源码地址 ([6d3972e](https://github.com/FlyingCaiChong/hexo-blog/commit/6d3972e9d57556fc6c97665385030fc267a13190))
+* 修改文章 ([66f0c75](https://github.com/FlyingCaiChong/hexo-blog/commit/66f0c756c99115d5928547187fc2cd8a1df07580))
+* 修改readme ([9a97a9d](https://github.com/FlyingCaiChong/hexo-blog/commit/9a97a9dc6f89b58c15769f68e4b4f1a4b7f2e71f))
+
 ### [1.0.5](https://github.com/FlyingCaiChong/hexo-blog/compare/v1.0.4...v1.0.5) (2023-09-23)
 
 
