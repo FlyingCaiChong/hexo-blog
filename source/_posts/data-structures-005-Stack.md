@@ -94,3 +94,7 @@ export default class Stack {
   }
 }
 ```
+
+---
+
+- 源码地址: [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/stack/Stack.js)
