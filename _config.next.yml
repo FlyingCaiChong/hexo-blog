@@ -704,12 +704,12 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io
 gitalk:
-  enable: false
-  github_id: # GitHub repo owner
-  repo: # Repository name to store issues
-  client_id: # GitHub Application Client ID
-  client_secret: # GitHub Application Client Secret
-  admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  enable: true
+  github_id: FlyingCaiChong # GitHub repo owner
+  repo: hexo-blog # Repository name to store issues
+  client_id: 61affc4a2426aaa3d3fb # GitHub Application Client ID
+  client_secret: 9eb525e3ab3ffa5f1e0554178f9478ebbd58eb5c # GitHub Application Client Secret
+  admin_user: FlyingCaiChong # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # When the official proxy is not available, you can change it to your own proxy address
   proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token # This is official proxy address
