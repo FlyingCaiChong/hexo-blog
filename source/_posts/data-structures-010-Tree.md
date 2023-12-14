@@ -11,7 +11,7 @@ categories:
 
 - [二叉搜索树](/2023/12/14/data-structures-011-BinarySearchTree)
 - [AVL 树](/2023/12/14/data-structures-012-AvlTree)
-- [红黑树](red-black-tree)
+- [红黑树](/2023/12/14/data-structures-013-RedBlackTree)
 - [线段树](segment-tree) - with min/max/sum range queries examples
 - [芬威克树/Fenwick Tree](fenwick-tree) (Binary Indexed Tree)
 
