@@ -7,9 +7,21 @@ categories:
   - 数据结构与算法
 ---
 
-## SegmentTree
+## 线段树
+
+线段树（Segment Tree），也称为统计树，是一种用于存储关于区间或段的信息的树数据结构。它允许查询哪些存储的段包含给定的点。它原则上是一个静态结构，也就是说，一旦构建完成就不能修改。类似的数据结构是区间树。
+
+线段树是一棵二叉树。树的根表示整个数组。根节点的两个子节点表示数组的第一半和第二半。同样，每个节点的子节点对应于与节点对应的数组的两半。
+
+我们从底部向上构建树，每个节点的值是其子节点值的“最小值”（或任何其他函数）。这将花费 O(n log n)的时间。执行的操作数是树的高度，即 O(log n)。为了进行范围查询，每个节点将查询分成两个子查询，一个子查询对应于每个子节点。如果查询包含节点的整个子数组，我们可以使用节点上预计算的值。利用这种优化，我们可以证明只有 O(log n)次最小操作。
 
 <!-- more -->
+
+![Min Segment Tree](https://www.geeksforgeeks.org/wp-content/uploads/RangeMinimumQuery.png)
+
+![Sum Segment Tree](https://www.geeksforgeeks.org/wp-content/uploads/segment-tree1.png)
+
+## SegmentTree
 
 ```js
 export default class SegmentTree {

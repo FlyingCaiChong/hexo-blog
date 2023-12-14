@@ -7,9 +7,39 @@ categories:
   - 数据结构与算法
 ---
 
-## AvlTree
+## AVL 树
+
+在计算机科学中，**AVL 树**（以发明者 Adelson-Velsky 和 Landis 命名）是一种自平衡的二叉搜索树。它是第一个被发明出来的这种数据结构。在 AVL 树中，任何节点的两个子树的高度最多相差一；如果在任何时候它们相差超过一，就会进行重新平衡以恢复这个属性。查找、插入和删除在平均和最坏情况下都需要 O(log n)的时间，其中 n 是操作之前树中节点的数量。插入和删除可能需要对树进行一个或多个树旋转进行重新平衡。
+
+动画显示将几个元素插入到 AVL 树中。它包括左旋、右旋、左右旋和右左旋。
 
 <!-- more -->
+
+![AVL Tree](https://upload.wikimedia.org/wikipedia/commons/f/fd/AVL_Tree_Example.gif)
+
+带有平衡因子（绿色）的 AVL 树
+
+![AVL Tree](https://upload.wikimedia.org/wikipedia/commons/a/ad/AVL-tree-wBalance_K.svg)
+
+### AVL Tree Rotations
+
+**Left-Left Rotation**
+
+![Left-Left Rotation](http://btechsmartclass.com/data_structures/ds_images/LL%20Rotation.png)
+
+**Right-Right Rotation**
+
+![Right-Right Rotation](http://btechsmartclass.com/data_structures/ds_images/RR%20Rotation.png)
+
+**Left-Right Rotation**
+
+![Left-Right Rotation](http://btechsmartclass.com/data_structures/ds_images/LR%20Rotation.png)
+
+**Right-Left Rotation**
+
+![Right-Right Rotation](http://btechsmartclass.com/data_structures/ds_images/RL%20Rotation.png)
+
+## AvlTree
 
 ```js
 export default class AvlTree extends BinarySearchTree {

@@ -7,9 +7,64 @@ categories:
   - 数据结构与算法
 ---
 
-## RedBlackTree
+## 红黑树
+
+**红黑树**是一种自平衡的二叉搜索树，在计算机科学中使用。二叉树的每个节点都有一个额外的位，这个位通常被解释为节点的颜色（红色或黑色）。这些颜色位用于在插入和删除过程中保持树的大致平衡。
+
+通过以一种满足特定属性的方式将树的每个节点标记为两种颜色之一，可以保持树的平衡，这些属性共同限制了树在最坏情况下可能变得不平衡的程度。当修改树时，新的树会被重新排列和重新标记以恢复颜色属性。这些属性的设计使得这种重新排列和重新标记可以高效地进行。
+
+树的平衡并不完美，但足够好，可以确保在 O(log n)的时间内进行搜索，其中 n 是树中的元素总数。插入和删除操作以及树的重新排列和重新标记也可以在 O(log n)的时间内完成。
+
+红黑树的一个示例：
 
 <!-- more -->
+
+![red-black tree](https://upload.wikimedia.org/wikipedia/commons/6/66/Red-black_tree_example.svg)
+
+## 属性
+
+除了对二叉搜索树施加的要求之外，红黑树还必须满足以下条件：
+
+- 每个节点要么是红色，要么是黑色。
+- 根节点是黑色。这个规则有时可以省略。因为根节点总是可以从红色变为黑色，但不一定反之，所以这个规则对分析的影响很小。
+- 所有叶子节点（NIL）都是黑色的。
+- 如果一个节点是红色的，则它的两个子节点都是黑色的。
+- 从给定节点到任何其后代 NIL 节点的每条路径都包含相同数量的黑色节点。
+
+一些定义：从根节点到一个节点的黑色节点数称为该节点的黑色深度；从根节点到叶子节点的所有路径中的黑色节点数是红黑树的黑色高度。
+
+这些约束条件强制实施了红黑树的一个关键特性：从根节点到最远叶子节点的路径长度不超过从根节点到最近叶子节点路径长度的两倍。结果是树大致上是高度平衡的。由于插入、删除和查找值等操作的最坏情况时间与树的高度成比例，这个对树高度的理论上限使得红黑树在最坏情况下具有高效性，而普通的二叉搜索树则不具备。
+
+## 插入平衡
+
+### If uncle is RED
+
+![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase2.png)
+
+### If uncle is BLACK
+
+- 左左情况（p 是 g 的左子节点，x 是 p 的左子节点）
+- 左右情况（p 是 g 的左子节点，x 是 p 的右子节点）
+- 右右情况（p 是 g 的右子节点，x 是 p 的右子节点）
+- 右左情况（p 是 g 的右子节点，x 是 p 的左子节点）
+
+#### Left Left Case (See g, p and x)
+
+![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase3a1.png)
+
+#### Left Right Case (See g, p and x)
+
+![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase3b.png)
+
+#### Right Right Case (See g, p and x)
+
+![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase3c.png)
+
+#### Right Left Case (See g, p and x)
+
+![Red Black Tree Balancing](https://www.geeksforgeeks.org/wp-content/uploads/redBlackCase3d.png)
+
+## RedBlackTree
 
 ```js
 // 红黑树节点的可能颜色。

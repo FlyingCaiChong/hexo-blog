@@ -7,9 +7,25 @@ categories:
   - 数据结构与算法
 ---
 
-## FenwickTree
+## Fenwick 树
+
+Fenwick 树（也称为二进制索引树）是一种数据结构，它可以高效地更新元素和计算数字表中的前缀和。
+
+与一个平面数组相比，Fenwick 树在两个操作之间实现了更好的平衡：元素更新和前缀和计算。在一个平面数组中，你可以存储元素或前缀和。在第一种情况下，计算前缀和需要线性时间；在第二种情况下，更新数组元素需要线性时间（在这两种情况下，另一个操作可以在常量时间内完成）。Fenwick 树允许这两个操作在 O(log n)时间内完成。这是通过将数字表示为一棵树来实现的，其中每个节点的值是该子树中数字的总和。树结构允许只使用 O(log n)的节点访问来执行操作。
 
 <!-- more -->
+
+## 实现注意事项
+
+二进制索引树是用数组表示的。二进制索引树的每个节点存储了给定数组的一些元素的和。二进制索引树的大小等于输入数组的大小 n。在当前的实现中，我们使用 n+1 作为大小以便于实现。所有的索引都是从 1 开始的。
+
+![Binary Indexed Tree](https://www.geeksforgeeks.org/wp-content/uploads/BITSum.png)
+
+下面的图片是一个动画示例，展示了逐个插入元素 [1, 2, 3, 4, 5] 来创建二进制索引树的过程。
+
+![Fenwick Tree](https://upload.wikimedia.org/wikipedia/commons/d/dc/BITDemo.gif)
+
+## FenwickTree
 
 ```js
 export default class FenwickTree {
