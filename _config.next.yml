@@ -430,7 +430,7 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Ma Shan Zheng # Lato
+    family: Lora
     size:
 
   # Font settings for site title (.site-title).
