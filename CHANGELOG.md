@@ -1,6 +1,29 @@
 
   #  更新日志
   
+### [1.0.8](https://github.com/FlyingCaiChong/hexo-blog/compare/v1.0.7...v1.0.8) (2024-05-09)
+
+
+### ✨ Features | 新功能
+
+* 修改字体 ([f0cf045](https://github.com/FlyingCaiChong/hexo-blog/commit/f0cf045b7636b34eb8d05f29d8ef2f1e8e4d967e))
+* 添加图片显示 ([ddc226a](https://github.com/FlyingCaiChong/hexo-blog/commit/ddc226afba15f57aaf78dcb6695dab7d70e0d6a1))
+* 添加支持gitalk评论 ([7c94974](https://github.com/FlyingCaiChong/hexo-blog/commit/7c94974e47015c1f92fec026f0f0fb27a3a01efb))
+* 添加支持动态背景 ([c2403eb](https://github.com/FlyingCaiChong/hexo-blog/commit/c2403eb306f14e241a8da76135466c164a7a4ec4))
+* 添加文章阅读次数 ([a12ed64](https://github.com/FlyingCaiChong/hexo-blog/commit/a12ed649070576867503c080d374c54e5e2f800a))
+
+
+### ✏️ Documentation | 文档
+
+* add picocolors learn md ([f44a2b6](https://github.com/FlyingCaiChong/hexo-blog/commit/f44a2b6e13e4c499b722f7a13ac9df2c39698813))
+* add since ([ae66835](https://github.com/FlyingCaiChong/hexo-blog/commit/ae66835b496eaf2abe1049255849364300679153))
+* 修改字体 ([08e3dcd](https://github.com/FlyingCaiChong/hexo-blog/commit/08e3dcd41f4ff118747d45ca75b63346a126624d))
+* 添加新文章 ([06fca76](https://github.com/FlyingCaiChong/hexo-blog/commit/06fca76c852e467a3330e93ab2a3bab870b1beac))
+* 添加新文章 ([64407b0](https://github.com/FlyingCaiChong/hexo-blog/commit/64407b0835e4bcedb2e624e7dc5c5bf0eb1d2f5e))
+* 添加新文章 ([ba41a9a](https://github.com/FlyingCaiChong/hexo-blog/commit/ba41a9a43b2524b0d014df5cdb00b92ae97352dc))
+* 添加新文章 ([da37aad](https://github.com/FlyingCaiChong/hexo-blog/commit/da37aad5d74cd77c68390868bdb4af3a6e994529))
+* 添加新文章 ([4a20fe4](https://github.com/FlyingCaiChong/hexo-blog/commit/4a20fe4d123c9a88d9d086412e08b7c48d2d0ead))
+
 ### [1.0.7](https://github.com/FlyingCaiChong/hexo-blog/compare/v1.0.6...v1.0.7) (2023-12-14)
 
 
